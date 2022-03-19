@@ -1,0 +1,34 @@
+.bttn {
+  outline: none;
+  color: white;
+  background-color: teal;
+  border-radius: 5px;
+  padding: 8px 28px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  &:hover {
+    opacity: 0.5;
+  }
+  &.true {
+    background-color: cadetblue;
+    border: 2px solid greenyellow;
+  }
+  &.bad {
+    background-color: #ff4c4c;
+    border-color: #c80a0a;
+  }
+  &.good {
+    background-color: #16b5c3;
+    border-color: #14d09a;
+  }
+  &.settings {
+    background-color: #b3b033;
+    border-color: #61614b;
+  }
+  &.big {
+    font-size: 25px;
+    padding-top: 15px 30px;
+  }
+}

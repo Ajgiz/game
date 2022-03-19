@@ -1,0 +1,43 @@
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  &__items {
+    display: flex;
+    align-items: center;
+  }
+  &__body {
+    width: 800px;
+    padding: 10px;
+    border-radius: 2px;
+    color: black;
+    background-color: rgba(245, 231, 236, 0.7);
+    height: 500px;
+  }
+  &__label {
+    padding: 0px 0px 6px 0px;
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
+    &.sub-label {
+      margin: 0px 0px 0px 20px;
+    }
+  }
+  &__item {
+    margin: 0px 0px 30px 0px;
+    display: flex;
+    align-items: center;
+    &.color {
+      padding: 0px 0px 25px 0px;
+      margin: 0px 0px 0px 40px;
+    }
+  }
+}

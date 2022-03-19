@@ -1,0 +1,50 @@
+.item {
+  margin: 35px 15px;
+  display: inline-block;
+  color: white;
+  width: 205px;
+  height: 100px;
+  padding-top: 30px;
+  border: 1px solid white;
+  align-self: flex-end;
+  font-size: 35px;
+  cursor: pointer;
+  &.true {
+    opacity: 0.2;
+  }
+  &.score-20 {
+    width: 200px;
+    height: 90px;
+    margin: 20px 15px;
+  }
+  &.score-25 {
+    width: 200px;
+    height: 70px;
+    margin: 13px 15px;
+  }
+  &.score-30 {
+    width: 170px;
+    height: 70px;
+    margin: 12px;
+  }
+  &.score-35 {
+    width: 140px;
+    height: 70px;
+    margin: 13px;
+  }
+  &.score-40 {
+    width: 120px;
+    height: 70px;
+    margin: 12px;
+  }
+  &.score-45 {
+    width: 100px;
+    height: 70px;
+    margin: 14px;
+  }
+  &.score-50{
+    width: 90px;
+    height: 70px;
+    margin: 14px;
+  }
+}
